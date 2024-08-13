@@ -1,0 +1,131 @@
+/* This changes the background-color of the HTML file*/
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif; /*keeping this here if i want to change : monospace*/
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+nav{
+    color:white;
+    background-color: grey;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+nav a{
+    height: 100%;
+    color: white;
+    display: flex;
+    padding: 0 30px;
+    text-decoration: none;
+    align-items: center;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    color:white
+}
+nav ul li{
+    display: inline-block;
+}
+
+#sticky{
+    position:fixed;
+    top:0;
+    width: 100%;
+
+}
+
+.container .static-txt{
+    width:170px;
+    margin-right:600px;
+    text-align:left;
+    /*border: 20px solid ;*/
+    color:red;
+    font-size: 60px;
+    font-weight: 400;
+    position: absolute;
+    left:17%;
+    font-style:;
+}
+.container .dynamic-txt{
+    display: inline-block;
+}
+.dynamic-txt{
+    /*border: 20px solid ;*/
+    width: 105%px;
+    scroll-margin-block: 200px;
+    position: relative;
+    left:1%;
+    font-size: 60px;
+}
+.slides1{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:#fff;
+    background-image: url('drawing-picture.jpg');
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.slides2{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:#fff;
+    background-image: url('grey-wallpaper.jpg');
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.slides3{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:#fff;
+    background-image: url('grey-wallpaper.jpg');
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.slides4{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    color:#fff;
+    background-image: url('grey-wallpaper.jpg');
+    background-size: cover;
+    background-repeat:no-repeat
+}
+.slides img{
+    width: 450px;
+
+
+}
+
