@@ -96,6 +96,7 @@ nav ul li{
     gap:10px;
     color:#fff;
     background-image: url('grey-wallpaper.jpg');
+    min-height: 100vh;
     background-size: cover;
     background-repeat:no-repeat
 }
