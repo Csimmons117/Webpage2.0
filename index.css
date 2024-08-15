@@ -78,7 +78,7 @@ nav ul li{
 .slides1{
     width: 100%;
     height: 100vh;
-    max-width: 600px;
+    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,8 @@ nav ul li{
     background-image: url('drawing-picture.jpg');
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: right 
+    
+    background-position: right;
 }
 .slides2{
     width: 100%;
