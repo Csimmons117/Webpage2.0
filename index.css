@@ -87,7 +87,7 @@ nav ul li{
     background-image: url('drawing-picture.jpg');
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: right center
+    background-position: right 
 }
 .slides2{
     width: 100%;
