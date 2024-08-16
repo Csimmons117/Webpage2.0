@@ -4,6 +4,7 @@
     padding:0;
     font-family: sans-serif; /*keeping this here if i want to change : monospace*/
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html{
     scroll-behavior: smooth;
@@ -78,6 +79,7 @@ nav ul li{
 .slides1{
     width: 100%;
     height: 100vh;
+    /*max-width: 600px;*/
     display:flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +87,8 @@ nav ul li{
     color:#fff;
     background-image: url('drawing-picture.jpg');
     background-size: cover;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
+    /*background-position: right;*/
 }
 .slides2{
     width: 100%;
