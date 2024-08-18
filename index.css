@@ -134,6 +134,5 @@ nav ul li{
 
 
 #ifmobile{
-    background-position: center right;
     max-width: 600px;
 }
