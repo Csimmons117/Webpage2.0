@@ -132,10 +132,9 @@ nav ul li{
 
 }
 
-@media all and (max-width:600px) {
-    #ifmobile{
-        background-image: url('drawing-picture.jpg');
-        background-position: center right;
-        width:100% ;
-    }
+
+#ifmobile{
+    background-image: url('drawing-picture.jpg');
+    background-position: center right;
+    max-width:499px ;
 }
