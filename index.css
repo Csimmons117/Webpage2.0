@@ -183,10 +183,8 @@ nav ul li{
     .container nav{
         font-size: 40px;
     }
-    .dynamic-txt{
-        font-size: 20px;
-    }
-    .container #test{
+    
+    .dynamic-txt #test{
         font-size: 40px;
     }
 
