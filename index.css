@@ -57,7 +57,7 @@ nav ul li{
     width:170px;
     margin-right:600px;
     text-align:left;
-    /*border: 20px solid ;*/
+    border: 20px solid ;
     color:red;
     font-size: 60px;
     font-weight: 400;
@@ -68,10 +68,10 @@ nav ul li{
     display: inline-block;
 }
 .dynamic-txt{
-    /*border: 20px solid ;*/
+    border: 20px solid ;
     width: 105%px;
     scroll-margin-block: 200px;
-    position: relative;
+    align-items: center;
     left:1%;
     font-size: 60px;
 }
@@ -174,7 +174,7 @@ nav ul li{
 @media(max-width: 1000px) {
 
     .container div {
-        font-size: 40px;
+        font-size: 20px;
         background-size: cover;
         background-repeat:no-repeat;
         background-position: right;
@@ -183,6 +183,11 @@ nav ul li{
     .container nav{
         font-size: 40px;
     }
-    
+    .dynamic-txt{
+        font-size: 20px;
+    }
+    .container #test{
+        font-size: 40px;
+    }
 
 }
