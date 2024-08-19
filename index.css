@@ -174,5 +174,6 @@ nav ul li{
 @media (max-width: 768px) {
     .ifmobile {
         padding: 10px;
+        background-image: url('grey-wallpaper.jpg');
     }
 }
