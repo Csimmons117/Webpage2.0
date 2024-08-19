@@ -174,14 +174,14 @@ nav ul li{
 @media(max-width: 1000px) {
 
     .container div {
-        font-size: 30px;
+        font-size: 40px;
         background-size: cover;
         background-repeat:no-repeat;
         background-position: right;
         
     }
     .container nav{
-        font-size: 15px;
+        font-size: 20px;
     }
     
 
