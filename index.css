@@ -68,7 +68,7 @@ nav ul li{
     display: inline-block;
 }
 .dynamic-txt{
-    border: 20px solid ;
+    /*border: 20px solid ;*/
     width: 105%px;
     scroll-margin-block: 200px;
     align-items: center;
