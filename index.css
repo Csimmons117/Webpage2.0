@@ -172,9 +172,14 @@ nav ul li{
 }
 
 @media (max-width: 768px) {
-    .ifmobile {
+    .container div {
         padding: 10px;
         font-size: 20px;
-        background-image: url('grey-wallpaper.jpg');
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: right;
+        
     }
+    
+
 }
