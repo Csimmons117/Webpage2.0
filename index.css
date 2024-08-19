@@ -88,6 +88,7 @@ nav ul li{
     background-image: url('drawing-picture.jpg');
     background-size: cover;
     background-repeat:no-repeat;
+    background-size: cover;
     /*background-position: right;*/
 }
 .slides2{
@@ -171,7 +172,7 @@ nav ul li{
 }
 
 @media (max-width: 768px) {
-    .container {
+    .ifmobile {
         padding: 10px;
     }
 }
