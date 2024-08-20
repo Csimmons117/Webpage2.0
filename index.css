@@ -55,13 +55,13 @@ nav ul li{
 
 .container .static-txt{
     width:170px;
-    margin-right:600px;
-    text-align:left;
-    border: 20px solid ;
+    left: auto;
+    text-align:center;
+    /*border: 20px solid ;*/
     color:red;
     font-size: 60px;
     font-weight: 400;
-    position: absolute;
+   
     left:17%;
 }
 .container .dynamic-txt{
@@ -134,8 +134,7 @@ nav ul li{
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    
+    text-align: center;    
     
   }
   .wording{
@@ -147,8 +146,7 @@ nav ul li{
         background-color: green;
         float: left;       
         text-align: center;
-        line-height: 20px;
-        
+        line-height: 20px;        
     }
 
 
@@ -165,10 +163,9 @@ nav ul li{
     background-size: cover;
     background-repeat:no-repeat
 }
+
 .slides img{
     width: 450px;
-
-
 }
 
 @media(max-width: 1000px) {
@@ -184,8 +181,8 @@ nav ul li{
         font-size: 40px;
     }
     
-    .dynamic-txt #test{
-        font-size: 80px;
+    .container #test{
+        font-size:40px ;
     }
 
 }
