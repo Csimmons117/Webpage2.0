@@ -94,9 +94,12 @@ nav ul li{
 .slides2{
     width: 100%;
     height: 100vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    display:inline-block;
+    text-align: center;
+    padding:50px;
+    
+    
+    
     gap:10px;
     color:#fff;
     background-image: url('grey-wallpaper.jpg');
