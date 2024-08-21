@@ -106,7 +106,7 @@ nav ul li{
 }
 .head{
     align-items: flex-start;
-    border:10px solid red;
+    border: 20px solid purple;
 }
 .slides3{
     width: 100%;
@@ -126,7 +126,7 @@ nav ul li{
     width: 500px;
     margin-left:15px;
     margin-right: auto;
-    
+    border: 20px solid red ;
 }
 .progress-container {
     
