@@ -210,7 +210,7 @@ p{
 
 @media(max-width: 1000px) {
     .para-text p {
-        font-size:30px;
+        font-size:60px;
     }
     .container div {
         font-size: 20px;
