@@ -106,6 +106,7 @@ nav ul li{
 }
 .head{
     align-items: flex-start;
+    border:10px solid red;
 }
 .slides3{
     width: 100%;
