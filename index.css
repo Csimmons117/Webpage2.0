@@ -104,6 +104,9 @@ nav ul li{
     background-size: cover;
     background-repeat:no-repeat
 }
+.head{
+    align-items: flex-start;
+}
 .slides3{
     width: 100%;
     height: 100vh;
@@ -115,6 +118,7 @@ nav ul li{
     background-image: url('grey-wallpaper.jpg');
     background-size: cover;
     background-repeat:no-repeat;
+    flex-direction: column;
     
 }
 .left-box{
