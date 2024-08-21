@@ -205,7 +205,9 @@ nav ul li{
 }
 
 @media(max-width: 1000px) {
-
+    .para-text{
+        font-size:20px;
+    }
     .container div {
         font-size: 20px;
         background-size: cover;
