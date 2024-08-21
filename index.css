@@ -90,7 +90,7 @@ nav ul li{
     background-size: cover;
 }
 p{
-        font-size:70px;
+        font-size:50px;
     }
 .slides2{
     width: 100%;
@@ -210,7 +210,7 @@ p{
 
 @media(max-width: 1000px) {
     .para-text p {
-        font-size:70px;
+        font-size:10px;
     }
     .container div {
         font-size: 20px;
