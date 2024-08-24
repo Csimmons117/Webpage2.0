@@ -203,6 +203,10 @@ p{font-size:37px;}
     background-size: cover;
     background-repeat:no-repeat
 }
+.form{
+    color: white;
+    text-decoration: none;
+}
 
 .slides img{
     width: 450px;
