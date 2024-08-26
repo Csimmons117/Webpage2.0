@@ -50,7 +50,6 @@ nav ul li{
     position:fixed;
     top:0;
     width: 100%;
-
 }
 
 .container .static-txt{
@@ -58,7 +57,7 @@ nav ul li{
     left: auto;
     text-align:center;
     /*border: 20px solid ;*/
-    color:red;
+    /*color:red;*/
     font-size: 60px;
     font-weight: 400;
    
@@ -83,7 +82,6 @@ nav ul li{
     justify-content: center;
     gap:10px;
     color:#fff;
-
     background-image: url('drawing-picture.jpg');
     background-size: cover;
     background-repeat:no-repeat;
@@ -91,101 +89,28 @@ nav ul li{
 }
 .slides2{
     width: 100%;
-    height: 100vh;
-    display:inline-block;
-    
-    padding:50px;
-    
-    
-    
+    height: 100vh;    
+    padding:50px;   
     gap:10px;
     color:#fff;
     background-image: url('grey-wallpaper.jpg');
     background-size: cover;
     background-repeat:no-repeat
 }
-.head{
-    align-items: flex-start;
-}
+
 .slides3{
     width: 100%;
     height: 100vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    padding:50px; 
     gap:10px;
     color:#fff;
     background-image: url('grey-wallpaper.jpg');
     background-size: cover;
-    background-repeat:no-repeat;
-    flex-direction: column;
-    
+    background-repeat:no-repeat;   
 }
-.left-box{
-    width: 500px;
-    margin-left:15px;
-    margin-right: auto;
-    
-}
-.progress-container {
-    
-    width:200px;
-    border: 2px solid black;
-    background-color: transparent;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);   
-}
-.wording{
-  padding: 10px;
-}
-.progress0{
-    width: 70%;
-    height: 100%;
-    background-color: green;
-    float: left;       
-    text-align: center;
-    line-height: 20px;        
-}
-.progress1{
-    width: 60%;
-    height: 100%;
-    background-color: green;
-    float: left;       
-    text-align: center;
-    line-height: 20px;        
-}
-.progress2{
-    width: 40%;
-    height: 100%;
-    background-color: green;
-    float: left;       
-    text-align: center;
-    line-height: 20px;        
-}
-.progress3{
-    width: 30%;
-    height: 100%;
-    background-color: green;
-    float: left;       
-    text-align: center;
-    line-height: 20px;        
-}
-.progress4{
-    width: 30%;
-    height: 100%;
-    background-color: green;
-    float: left;       
-    text-align: center;
-    line-height: 20px;        
-}
-.progress5{
-    width: 60%;
-    height: 100%;
-    background-color: green;
-    float: left;       
-    text-align: center;
-    line-height: 20px;        
+.progress{
+    padding: 10px;
+    display: table-cell;
 }
 .slides4{
     width: 100%;
@@ -200,9 +125,7 @@ nav ul li{
     background-repeat:no-repeat
 }
 
-.slides img{
-    width: 450px;
-}
+
 
 @media(max-width: 1000px) {
 
