@@ -87,17 +87,32 @@ nav ul li{
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+
 .slides2{
     width: 100%;
+<<<<<<< HEAD
     height: 100vh;    
     padding:50px;   
+=======
+    height: 100vh;
+    display:inline-block;
+    padding:55px;
+>>>>>>> 959b554273faabc502ecddf6106a0146f9c20ec2
     gap:10px;
     color:#fff;
     background-image: url('grey-wallpaper.jpg');
     background-size: cover;
     background-repeat:no-repeat
 }
+<<<<<<< HEAD
 
+=======
+.head{
+    align-items: flex-start;
+    /*border: 20px solid purple;*/
+}
+>>>>>>> 959b554273faabc502ecddf6106a0146f9c20ec2
 .slides3{
     width: 100%;
     height: 100vh;
@@ -108,9 +123,78 @@ nav ul li{
     background-size: cover;
     background-repeat:no-repeat;   
 }
+<<<<<<< HEAD
 .progress{
     padding: 10px;
     display: table-cell;
+=======
+p{font-size:37px;}
+.left-box{
+    width: 500px;
+    margin-left:15px;
+    margin-right: auto;
+    /*border: 20px solid red ;*/
+}
+.progress-container {
+    
+    width:200px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);   
+}
+.wording{
+  padding: 10px;
+}
+.progress0{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+    float: left;       
+    text-align: center;
+    line-height: 20px;        
+}
+.progress1{
+    width: 60%;
+    height: 100%;
+    background-color: green;
+    float: left;       
+    text-align: center;
+    line-height: 20px;        
+}
+.progress2{
+    width: 40%;
+    height: 100%;
+    background-color: green;
+    float: left;       
+    text-align: center;
+    line-height: 20px;        
+}
+.progress3{
+    width: 30%;
+    height: 100%;
+    background-color: green;
+    float: left;       
+    text-align: center;
+    line-height: 20px;        
+}
+.progress4{
+    width: 30%;
+    height: 100%;
+    background-color: green;
+    float: left;       
+    text-align: center;
+    line-height: 20px;        
+}
+.progress5{
+    width: 60%;
+    height: 100%;
+    background-color: green;
+    float: left;       
+    text-align: center;
+    line-height: 20px;        
+>>>>>>> 959b554273faabc502ecddf6106a0146f9c20ec2
 }
 .slides4{
     width: 100%;
@@ -124,11 +208,15 @@ nav ul li{
     background-size: cover;
     background-repeat:no-repeat
 }
+.form{
+    color: white;
+    text-decoration: none;
+}
 
 
 
 @media(max-width: 1000px) {
-
+    
     .container div {
         font-size: 20px;
         background-size: cover;
