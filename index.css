@@ -75,7 +75,7 @@ nav ul li{
     font-size: 60px;
 }
 .head{
-    padding:80px;
+    padding:20px;
 }
 
 .slides1{
@@ -156,5 +156,8 @@ nav ul li{
     .container #test{
         font-size:60px ;
     }
-
+    .container #head2{
+        padding:20px;
+        
+    }
 }
