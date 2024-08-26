@@ -74,6 +74,10 @@ nav ul li{
     left:1%;
     font-size: 60px;
 }
+.head{
+    padding:14px;
+}
+
 .slides1{
     width: 100%;
     height: 100vh;
