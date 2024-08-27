@@ -16,7 +16,7 @@ html{
     position: relative;
 
 }
-.para-text{ font-size:20px;}
+.para-text{ font-size:40px;}
 nav{
     color:white;
     background-color: grey;
@@ -160,5 +160,5 @@ nav ul li{
         padding:12px;
         
     }
-    .para-text{ font-size:20px;}
+    .para-text{ font-size:40px;}
 }
