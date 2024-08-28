@@ -70,6 +70,7 @@ nav ul li{
     /*border: 20px solid ;*/
     width: 105%px;
     scroll-margin-block: 200px;
+    text-shadow:20px 20px 20px;
     align-items: center;
     left:1%;
     font-size: 60px;
@@ -85,7 +86,7 @@ nav ul li{
     align-items: center;
     justify-content: center;
     gap:10px;
-    color:black;
+    color:white;
     background-image: url('drawing-picture.jpg');
     background-size: cover;
     background-repeat:no-repeat;
@@ -115,18 +116,16 @@ nav ul li{
     background-repeat:no-repeat;   
 }
 
-.progress{
+.progress {
     /*border: 30px solid red ;*/
-    font-size:60px;
     padding:20px;
     display: table-cell;
 }
 .slides4{
     width: 100%;
     height: 100vh;
+    padding:50px;
     display:flex;
-    align-items: center;
-    justify-content: center;
     gap:10px;
     color:#fff;
     background-image: url('grey-wallpaper.jpg');
@@ -137,7 +136,9 @@ nav ul li{
     color: white;
     text-decoration: none;
 }
-
+.para-text{
+    font-size: 25px;
+}
 
 
 @media(max-width: 1000px) {
@@ -153,13 +154,13 @@ nav ul li{
         font-size: 40px;
     }
     
-    .container #test{
+    .container #dynamic-txt{
         font-size:60px ;
     }
     .container #head2{
         padding:12px;
         
     }
-    .para-text{ font-size:40px;}
-    .container #progress{font-size:40px;}
+    .para-text{ font-size:20px;}
+    .container #progress div{font-size:0px;}
 }
