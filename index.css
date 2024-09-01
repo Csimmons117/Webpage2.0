@@ -118,8 +118,11 @@ nav ul li{
 
 .progress {
     /*border: 30px solid red ;*/
+    
+    
     padding:20px;
     display: table-cell;
+    font-size: 25px;
 }
 .slides4{
     width: 100%;
@@ -135,9 +138,6 @@ nav ul li{
 .form{
     color: white;
     text-decoration: none;
-}
-.para-text{
-    font-size: 25px;
 }
 
 
